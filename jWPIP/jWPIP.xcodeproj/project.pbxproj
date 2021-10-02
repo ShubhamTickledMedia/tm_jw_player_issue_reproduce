@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516FB38926DCE6E00025EA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FB38826DCE6E00025EA38 /* AppDelegate.swift */; };
+		516FB38B26DCE6E00025EA38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FB38A26DCE6E00025EA38 /* SceneDelegate.swift */; };
+		516FB38D26DCE6E00025EA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FB38C26DCE6E00025EA38 /* ViewController.swift */; };
+		516FB39026DCE6E00025EA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516FB38E26DCE6E00025EA38 /* Main.storyboard */; };
+		516FB39226DCE6E20025EA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516FB39126DCE6E20025EA38 /* Assets.xcassets */; };
+		516FB39526DCE6E20025EA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516FB39326DCE6E20025EA38 /* LaunchScreen.storyboard */; };
+		516FB39F26DD005F0025EA38 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516FB39E26DD005F0025EA38 /* AVKit.framework */; };
+		72331D35FFD0F309F311DCFE /* Pods_jWPIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6248A9E16289AC0847B74E /* Pods_jWPIP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		516FB38526DCE6E00025EA38 /* jWPIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jWPIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516FB38826DCE6E00025EA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		516FB38A26DCE6E00025EA38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		516FB38C26DCE6E00025EA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		516FB38F26DCE6E00025EA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516FB39126DCE6E20025EA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516FB39426DCE6E20025EA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		516FB39626DCE6E20025EA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516FB39E26DD005F0025EA38 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		63F0D43130D914154C5FA29A /* Pods-jWPIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jWPIP.debug.xcconfig"; path = "Target Support Files/Pods-jWPIP/Pods-jWPIP.debug.xcconfig"; sourceTree = "<group>"; };
+		8E67623127F4E4941193B73D /* Pods-jWPIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jWPIP.release.xcconfig"; path = "Target Support Files/Pods-jWPIP/Pods-jWPIP.release.xcconfig"; sourceTree = "<group>"; };
+		ED6248A9E16289AC0847B74E /* Pods_jWPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jWPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516FB38226DCE6E00025EA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FB39F26DD005F0025EA38 /* AVKit.framework in Frameworks */,
+				72331D35FFD0F309F311DCFE /* Pods_jWPIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516FB37C26DCE6E00025EA38 = {
+			isa = PBXGroup;
+			children = (
+				516FB38726DCE6E00025EA38 /* jWPIP */,
+				516FB38626DCE6E00025EA38 /* Products */,
+				B6B2E1A754E5C443369614D4 /* Pods */,
+				60125D71AC99627B95B7DABB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		516FB38626DCE6E00025EA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516FB38526DCE6E00025EA38 /* jWPIP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516FB38726DCE6E00025EA38 /* jWPIP */ = {
+			isa = PBXGroup;
+			children = (
+				516FB38826DCE6E00025EA38 /* AppDelegate.swift */,
+				516FB38A26DCE6E00025EA38 /* SceneDelegate.swift */,
+				516FB38C26DCE6E00025EA38 /* ViewController.swift */,
+				516FB38E26DCE6E00025EA38 /* Main.storyboard */,
+				516FB39126DCE6E20025EA38 /* Assets.xcassets */,
+				516FB39326DCE6E20025EA38 /* LaunchScreen.storyboard */,
+				516FB39626DCE6E20025EA38 /* Info.plist */,
+			);
+			path = jWPIP;
+			sourceTree = "<group>";
+		};
+		60125D71AC99627B95B7DABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516FB39E26DD005F0025EA38 /* AVKit.framework */,
+				ED6248A9E16289AC0847B74E /* Pods_jWPIP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B2E1A754E5C443369614D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F0D43130D914154C5FA29A /* Pods-jWPIP.debug.xcconfig */,
+				8E67623127F4E4941193B73D /* Pods-jWPIP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516FB38426DCE6E00025EA38 /* jWPIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516FB39926DCE6E20025EA38 /* Build configuration list for PBXNativeTarget "jWPIP" */;
+			buildPhases = (
+				2C660DFF6B1F0E6C731AB40F /* [CP] Check Pods Manifest.lock */,
+				516FB38126DCE6E00025EA38 /* Sources */,
+				516FB38226DCE6E00025EA38 /* Frameworks */,
+				516FB38326DCE6E00025EA38 /* Resources */,
+				AFBC32F7859620EAF72EDE1D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jWPIP;
+			productName = jWPIP;
+			productReference = 516FB38526DCE6E00025EA38 /* jWPIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516FB37D26DCE6E00025EA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					516FB38426DCE6E00025EA38 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 516FB38026DCE6E00025EA38 /* Build configuration list for PBXProject "jWPIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516FB37C26DCE6E00025EA38;
+			productRefGroup = 516FB38626DCE6E00025EA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516FB38426DCE6E00025EA38 /* jWPIP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516FB38326DCE6E00025EA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FB39526DCE6E20025EA38 /* LaunchScreen.storyboard in Resources */,
+				516FB39226DCE6E20025EA38 /* Assets.xcassets in Resources */,
+				516FB39026DCE6E00025EA38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C660DFF6B1F0E6C731AB40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jWPIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBC32F7859620EAF72EDE1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jWPIP/Pods-jWPIP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jWPIP/Pods-jWPIP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jWPIP/Pods-jWPIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516FB38126DCE6E00025EA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FB38D26DCE6E00025EA38 /* ViewController.swift in Sources */,
+				516FB38926DCE6E00025EA38 /* AppDelegate.swift in Sources */,
+				516FB38B26DCE6E00025EA38 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		516FB38E26DCE6E00025EA38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516FB38F26DCE6E00025EA38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516FB39326DCE6E20025EA38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516FB39426DCE6E20025EA38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516FB39726DCE6E20025EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516FB39826DCE6E20025EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516FB39A26DCE6E20025EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F0D43130D914154C5FA29A /* Pods-jWPIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4A39LPT37;
+				INFOPLIST_FILE = jWPIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jWPIP5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516FB39B26DCE6E20025EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E67623127F4E4941193B73D /* Pods-jWPIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4A39LPT37;
+				INFOPLIST_FILE = jWPIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jWPIP5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516FB38026DCE6E00025EA38 /* Build configuration list for PBXProject "jWPIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516FB39726DCE6E20025EA38 /* Debug */,
+				516FB39826DCE6E20025EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516FB39926DCE6E20025EA38 /* Build configuration list for PBXNativeTarget "jWPIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516FB39A26DCE6E20025EA38 /* Debug */,
+				516FB39B26DCE6E20025EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516FB37D26DCE6E00025EA38 /* Project object */;
+}
