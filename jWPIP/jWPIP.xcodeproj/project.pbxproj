@@ -14,6 +14,7 @@
 		516FB39226DCE6E20025EA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516FB39126DCE6E20025EA38 /* Assets.xcassets */; };
 		516FB39526DCE6E20025EA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516FB39326DCE6E20025EA38 /* LaunchScreen.storyboard */; };
 		516FB39F26DD005F0025EA38 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516FB39E26DD005F0025EA38 /* AVKit.framework */; };
+		51A97F76270C7A27008EC6A8 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97F75270C7A27008EC6A8 /* PlayerVC.swift */; };
 		72331D35FFD0F309F311DCFE /* Pods_jWPIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6248A9E16289AC0847B74E /* Pods_jWPIP.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		516FB39426DCE6E20025EA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		516FB39626DCE6E20025EA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516FB39E26DD005F0025EA38 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		51A97F75270C7A27008EC6A8 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 		63F0D43130D914154C5FA29A /* Pods-jWPIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jWPIP.debug.xcconfig"; path = "Target Support Files/Pods-jWPIP/Pods-jWPIP.debug.xcconfig"; sourceTree = "<group>"; };
 		8E67623127F4E4941193B73D /* Pods-jWPIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jWPIP.release.xcconfig"; path = "Target Support Files/Pods-jWPIP/Pods-jWPIP.release.xcconfig"; sourceTree = "<group>"; };
 		ED6248A9E16289AC0847B74E /* Pods_jWPIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jWPIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				516FB38826DCE6E00025EA38 /* AppDelegate.swift */,
 				516FB38A26DCE6E00025EA38 /* SceneDelegate.swift */,
 				516FB38C26DCE6E00025EA38 /* ViewController.swift */,
+				51A97F75270C7A27008EC6A8 /* PlayerVC.swift */,
 				516FB38E26DCE6E00025EA38 /* Main.storyboard */,
 				516FB39126DCE6E20025EA38 /* Assets.xcassets */,
 				516FB39326DCE6E20025EA38 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 				516FB38D26DCE6E00025EA38 /* ViewController.swift in Sources */,
 				516FB38926DCE6E00025EA38 /* AppDelegate.swift in Sources */,
 				516FB38B26DCE6E00025EA38 /* SceneDelegate.swift in Sources */,
+				51A97F76270C7A27008EC6A8 /* PlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

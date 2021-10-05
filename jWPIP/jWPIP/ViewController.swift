@@ -21,11 +21,11 @@ class ViewController: UIViewController, JWPlayerDelegate {
         if videoView == nil {
             videoView = JWPlayerViewController()
             videoView.forceFullScreenOnLandscape = true
-            view.addSubview((videoView.view)!)
+            view1.addSubview((videoView.view)!)
             videoView.player.delegate = self
             // videoView.player.playbackStateDelegate = self
             videoView.view?.translatesAutoresizingMaskIntoConstraints = false
-            view.translatesAutoresizingMaskIntoConstraints = false
+            view1.translatesAutoresizingMaskIntoConstraints = false
             
             if let videoView = videoView.view {
                 var anchors = [NSLayoutConstraint]()
@@ -35,7 +35,6 @@ class ViewController: UIViewController, JWPlayerDelegate {
                 anchors.append(videoView.heightAnchor.constraint(equalTo: view1.heightAnchor, constant: 0))
                 NSLayoutConstraint.activate(anchors)
             }
-
             setupPlayer()
         }
         
@@ -131,7 +130,7 @@ extension ViewController: JWPlayerStateDelegate {
     func jwplayer(_ player: JWPlayer,
                   didLoadPlaylistItem item: JWPlayerItem,
                   at index: UInt) {
-        print("playlist load complete \(item.title)")
+        print("playlist load complete \(item.title ?? "")")
     }
     
     func jwplayerPlaylistHasCompleted(_ player: JWPlayer) {
